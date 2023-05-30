@@ -20,7 +20,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'acrtest'
+        containerRegistry: 'testacr'
         repository: 'prabhutxstacksimplifyazure'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
