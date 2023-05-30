@@ -21,7 +21,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'testacr'
-        repository: 'prabhutxstacksimplifyazure'
+        repository: 'prabhutxcustomimage'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
